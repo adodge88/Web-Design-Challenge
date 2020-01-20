@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Web Design Challenge</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<!--NAVIGATION BAR-->
+   <div class="container head_foot">
+       <div class="row">
+        <div class="col-md-12">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="index.html">Latitude</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav ml-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Plots
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="max_temp.html">Max Temperature</a>
+                          <a class="dropdown-item" href="humidity.html">Humidity</a>
+                          <!--<div class="dropdown-divider"></div>-->
+                          <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                          <a class="dropdown-item" href="wind_speed.html">Wind Speed</a>
+                        </div>
+                      </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="comp.html">Comparison</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="data.html">Data</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+        </div>
+       </div>
+   </div>
+
+<!--MAIN SECTION-->
+    <div class="container pt-4">
+        <div class="row">  
+      <!--LEFT MAIN SECTION-->
+                <div class="col-md-8">
+                    <h1>Max Temperature</h1>
+                    <hr>
+                    <img src="assets/images/Max_Temp.png" 
+                    alt="Max Temperature" class="img-fluid">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent a ex vulputate, tincidunt leo ac, facilisis tortor. Integer congue est quis sem faucibus, a bibendum elit faucibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris eros mi, ultrices at vulputate eget, aliquet iaculis purus. Nullam in fringilla ante, quis vestibulum ipsum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec id tempor nulla, et finibus eros. Quisque vehicula tincidunt magna a suscipit. Praesent aliquet aliquet ex, ac porttitor elit iaculis iaculis. Pellentesque viverra augue sit amet fermentum pharetra. Nam rhoncus nibh risus, vel commodo orci ultrices ac. Integer ornare dignissim ex vestibulum ornare. Pellentesque a consectetur ante, sit amet consequat lectus. Praesent facilisis quam neque, non luctus neque facilisis vitae. Curabitur ut bibendum ante. Sed auctor arcu metus, dapibus pellentesque leo imperdiet a.</p>
+                </div>
+        
+    <!--RIGHT MAIN SECTION-->
+                <div class="col-md-4"> 
+                    <h2>Visualizations</h2>
+                    <hr>
+                <!--MAX TEMP-->
+                    <a href="max_temp.html">
+                        <img src="assets/images/Max_Temp.png"
+                            alt="Max Temperature" Title= "Max Temperature" height="175" width="175" class="img-fluid p-1 float-left border border-warning"/> 
+                    </a>
+
+                <!--HUMIDITY-->
+                    <a href="humidity.html">
+                        <img src="assets/images/Humidity.png"
+                            alt="Humidity" Title= "Humidity" height="175" width="175" class="figure-img img-fluid p-1 float-left"/>      
+                    </a>
+                
+                <!--CLOUDINESS-->
+                    <a href="cloudiness.html">
+                        <img src="assets/images/Cloudiness.png"
+                            alt="Cloudiness" Title="Cloudiness" height="175" width="175" class="img-fluid p-1 float-left"/>     
+                    </a>
+
+                <!--Wind Speed-->
+                    <a href="wind_speed.html">
+                        <img src="assets/images/Wind_Speed.png"
+                            alt="Wind Speed" Title="Wind Speed" height="175" width="175" class="img-fluid p-1 float-left"/>          
+                    </a>
+
+             
+                 
+
+
+
+
+
+                    
+                </div>
+
+        </div>
+    </div>
+
+
+<!--FOOTER-->
+<div class = "footer">    
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <hr>
+                <div class="row">
+                    <p class="text-muted pl-3">Made by Ashley Dodge</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+</body>
+</html>
+
